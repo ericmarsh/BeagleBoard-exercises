@@ -652,13 +652,13 @@ typedef union accel_t_gyro_union
   } reg;
   struct 
   {
-    int x_accel;
-    int y_accel;
-    int z_accel;
-    int temperature;
-    int x_gyro;
-    int y_gyro;
-    int z_gyro;
+    short x_accel;
+    short y_accel;
+    short z_accel;
+    short temperature;
+    short x_gyro;
+    short y_gyro;
+    short z_gyro;
   } value;
 };
 
